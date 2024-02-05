@@ -1,16 +1,10 @@
 import Button from './components/Button';
+import Container from './components/Container';
 
 function App() {
   return (
     <main>
-      <p>
-        <Button>button</Button>
-      </p>
-      <p>
-        <Button href="https://react-ts-brown.vercel.app/" target="__blank">
-          Link
-        </Button>
-      </p>
+      <Container as={Button}>Click ME </Container>
     </main>
   );
 }
