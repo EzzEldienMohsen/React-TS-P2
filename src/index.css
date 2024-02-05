@@ -101,7 +101,7 @@ input {
   color: #07302a;
 }
 
-.button {
+button {
   font: inherit;
   padding: 0.5rem;
   border-radius: 4px;
@@ -111,12 +111,16 @@ input {
   cursor: pointer;
 }
 
-.button:hover,
-.button:active {
+button:hover,
+button:active {
   background-color: #217086;
   border-color: #217086;
 }
-
+a {
+  background-color: #d0b8bb;
+  color: #217086;
+  font-size: 1.5rem;
+}
 #add-timer {
   max-width: 20rem;
   margin: 3rem auto;
