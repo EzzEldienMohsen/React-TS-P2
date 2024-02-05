@@ -4,14 +4,10 @@ function App() {
   return (
     <main>
       <p>
-        <Button el="button">button</Button>
+        <Button>button</Button>
       </p>
       <p>
-        <Button
-          el="link"
-          href="https://react-ts-brown.vercel.app/"
-          target="__blank"
-        >
+        <Button href="https://react-ts-brown.vercel.app/" target="__blank">
           Link
         </Button>
       </p>
