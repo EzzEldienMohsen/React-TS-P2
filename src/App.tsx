@@ -1,12 +1,19 @@
-import React from 'react';
-
 import Input from './components/Input';
+import Form from './components/Form';
+import Button from './components/Button';
 
 function App() {
-  const input = React.useRef<HTMLInputElement>(null);
   return (
     <main>
-      <Input name="yourName" text="insert your name" type="text" ref={input} />
+      <Form>
+        <Input name="yourName" text="insert your name" type="text" />
+        <Input name="email" text="insert your email" type="email" />
+        <Input name="password" text="insert your password" type="password" />
+        <Input name="age" text="insert your age" type="number" />
+        <p>
+          <Button>Save</Button>
+        </p>
+      </Form>
     </main>
   );
 }
